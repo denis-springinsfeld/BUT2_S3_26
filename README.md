@@ -70,6 +70,8 @@ body {
 }
 ```
 
+---
+
 ### 💻 A_2 run dev et run build :
 
 #### A_2_1 Avec du CSS standard
@@ -121,6 +123,8 @@ export default defineConfig({
 À présent effectuer un nouveau build de votre projet.
 Observez le fichier `style.css` dans le dossier `dist/assets`. Il est maintenant **non minifié** et plus facile à lire.
 Observez également le poids du fichier CSS non minifié.
+
+---
 
 #### Avec du SCSS
 
@@ -308,11 +312,14 @@ body {
 > ```plaintext
 > public/
 >   L fonts/
->     - Rubik-VariableFont_wght.ttf
->     - Rubik-Italic-VariableFont_wght.ttf
+>     L Rubik/
+>       - Rubik-VariableFont_wght.ttf
+>       - Rubik-Italic-VariableFont_wght.ttf
 > ```
 
 Pour info l'intégralité du dossier `public` lors du `build` sera copié dans le dossier `dist`. Vous pouvez y ranger tous vos assets (images, polices, etc.).
+
+---
 
 ### 💻 Exercice 2 : Sass
 
@@ -353,6 +360,8 @@ Réorganiser votre code en utilisant des `partials`.
 
 > [!TIP]
 > Doc : https://sass-lang.com/guide#topic-4
+
+---
 
 ### 💻 Exercice 3 : card
 
