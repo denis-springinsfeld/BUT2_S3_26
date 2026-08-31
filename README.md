@@ -29,17 +29,18 @@ npm install
 
 - Structure de votre `dossier de travail`
 
-```shell
-/TD1-sass
-  /public
-    vite.svg ❌
-  /src
-    counter.js ❌
-    javascript.js ❌
-    main.js ❌
-    style.css
-  index.html
-  package.json
+```plaintext
+TD1-sass/
+  L public/
+    - vite.svg ❌
+    - favicon.ico ❌
+  L src/
+    - counter.js ❌
+    - javascript.js ❌
+    - main.js ❌
+    - style.css
+  - index.html
+  - package.json
 
 ```
 
@@ -166,7 +167,7 @@ Copier le code suivant dans votre fichier `index.html` :
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TD2</title>
+    <title>TD1_SASS</title>
 
     <link rel="stylesheet" href="/src/style.scss" />
   </head>
@@ -299,11 +300,15 @@ body {
 }
 ```
 
-Attention vous devez télécharger depuis google fonts la police `Rubik` et la placer dans le dossier `public/fonts` de votre projet.
-Le dossier `public/fonts` doit contenir les fichiers de police suivants :
-
-- Rubik-VariableFont_wght.ttf
-- Rubik-Italic-VariableFont_wght.ttf
+> [!WARNING]
+> Attention vous devez télécharger depuis google fonts la police `Rubik` et la placer dans le dossier `public/fonts` de votre projet.
+>
+> ```plaintext
+> public/
+>   L fonts/
+>     - Rubik-VariableFont_wght.ttf
+>     - Rubik-Italic-VariableFont_wght.ttf
+> ```
 
 Pour info l'intégralité du dossier `public` lors du `build` sera copié dans le dossier `dist`. Vous pouvez y ranger tous vos assets (images, polices, etc.).
 
