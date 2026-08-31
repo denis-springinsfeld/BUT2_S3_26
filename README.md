@@ -128,12 +128,14 @@ Observez également le poids du fichier CSS non minifié.
 - Modifier le fichier `index.html` pour inclure le fichier `style.scss`
 - Lancer le serveur de développement, une erreur devrait apparaître dans la console, indiquant que 'sass' n'est pas installé.
 
-- Vous devez installer Sass en tant que dépendance de développement.
-
-```shell
-# Installer sass
-npm install -D sass
-```
+> [!NOTE]
+>
+> - Vous devez installer Sass en tant que dépendance de développement.
+>
+> ```shell
+> # Installer sass
+> npm install -D sass
+> ```
 
 - Relancer le serveur de développement,
 - Tester quelques propriétés CSS.
