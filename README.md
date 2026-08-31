@@ -362,21 +362,3 @@ Réorganiser votre code en utilisant des `partials`.
 > Doc : https://sass-lang.com/guide#topic-4
 
 ---
-
-### 💻 Exercice 3 : card
-
-DS :
-
-```css
---font-family-primary: "Vollkorn", serif;
---font-family-primary: "Vollkorn", serif;
---font-family-secondary: "PT Sans", sans-serif;
---font-size-heading: 2rem;
---font-size-caption: 0.875rem;
---color-border: #34b897;
---color-text: #222022;
---color-highlight-primary: #ffef7e;
---color-highlight-secondary: #b7f9e9;
---border-radius: 1.25rem;
---box: 10px;
-```
