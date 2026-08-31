@@ -71,7 +71,7 @@ body {
 
 ### 💻 A_2 run dev et run build :
 
-#### Avec du CSS standard
+#### A_2_1 Avec du CSS standard
 
 Lancer le serveur de développement
 
@@ -91,7 +91,7 @@ Pour suspendre le serveur, utilisez `Ctrl + C` dans le terminal.
 > Pour construire le projet, exécutez la commande suivante :
 
 ```shell
-# Suspendre le serveur
+# Suspendre le serveur [ctrl + c]
 # Construire le projet
 npm run build
 ```
@@ -144,7 +144,7 @@ Observez le fichier `style.css` dans le dossier `dist/assets`.
 
 > [!TIP]
 > Vous pouvez aussi ajouter `prettier` pour formater votre code.
-
+>
 > ```shell
 > # Installer prettier
 > npm install -D prettier
