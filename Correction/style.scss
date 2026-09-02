@@ -1,0 +1,121 @@
+// Importation des variables Sass
+@use "variables" as *;
+
+/* Rubik Variable Font Face */
+@font-face {
+  font-family: "Rubik";
+  src: url("/fonts/Rubik/Rubik-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("/fonts/Rubik/Rubik-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  // Utilisation de la map et d'une boucle pour générer les variables CSS
+  @each $name, $value in $color {
+    --clr-#{$name}: #{$value};
+  }
+
+  --ff-sans: #{$ff-sans};
+}
+
+// ====================================
+// Mini reset uniquement pour test
+// https://piccalil.li/blog/a-more-modern-css-reset/
+// ====================================
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+// ====================================
+// Base
+// ====================================
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $ff-sans;
+  background-color: var(--clr-dark);
+}
+
+// ====================================
+// Layout
+// ====================================
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+// ====================================
+// Components
+// ====================================
+
+.btn {
+  --_bg: var(--clr-light);
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 10ch;
+  min-height: 44px;
+
+  padding: 0.8em 3em;
+
+  line-height: 1rem;
+
+  text-transform: uppercase;
+  color: oklch(0.3 0 0);
+  background-color: var(--_bg, var(--clr-light));
+  box-shadow: 8px 8px 0 oklch(0.3 0 0 / 0.5);
+
+  border-radius: 20px;
+
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    --_bg: var(--clr-dark-lightened);
+  }
+
+  // Variants
+
+  &--info {
+    --_bg: var(--clr-info);
+  }
+  &--success {
+    --_bg: var(--clr-success);
+  }
+  &--warning {
+    --_bg: var(--clr-warning);
+  }
+  &--error {
+    --_bg: var(--clr-error);
+  }
+}

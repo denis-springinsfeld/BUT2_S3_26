@@ -1,0 +1,14 @@
+// Ici on définit les variables globales pour les couleurs et la typographie du projet. Ces variables peuvent être utilisées dans tout le projet pour assurer une cohérence visuelle.
+
+$color: (
+  dark: oklch(0 0 261),
+  light: oklch(1 0 0),
+  middle: oklch(0.5 0 0),
+  info: oklch(0.7 0.2 231),
+  success: oklch(0.7 0.2 163),
+  warning: oklch(0.7 0.2 84),
+  error: oklch(0.7 0.2 22),
+  dark-lightened: oklch(0.5 0 261),
+);
+
+$ff-sans: "Rubik", sans-serif;
