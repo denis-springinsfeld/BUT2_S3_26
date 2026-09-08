@@ -2,7 +2,7 @@
 
 Intégration de la maquette - projet Vite.JS + TailwindCSS
 Création d'un thème TailwindCSS : Tokens primitive + tokens sémantique.
-Proposer un version dark et light du site.
+Proposer une version dark et light du site.
 
 - Version mobile :
   ![SM](Ecrans/landing-mobile.jpg)
