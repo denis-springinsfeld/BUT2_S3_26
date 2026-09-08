@@ -36,30 +36,30 @@ TD2-TailwindCSS/
 
 - Configure the Vite plugin en créant un fichier `vite.config.js` :
 
-```js
-// vite.config.js
-import { defineConfig } from "vite";
-import tailwindcss from "@tailwindcss/vite";
-export default defineConfig({
-  plugins: [tailwindcss()],
-});
-```
+> ```js
+> // vite.config.js
+> import { defineConfig } from "vite";
+> import tailwindcss from "@tailwindcss/vite";
+> export default defineConfig({
+>   plugins: [tailwindcss()],
+> });
+> ```
 
 - Ajouter Prettier :
   [doc](https://tailwindcss.com/docs/editor-setup#class-sorting-with-prettier)
 
-```shell
-npm install -D prettier prettier-plugin-tailwindcss
-```
+> ```shell
+> npm install -D prettier prettier-plugin-tailwindcss
+> ```
 
 - Ajouter la configuration Prettier :
 
-```js
-// .prettierrc
-{
-  "plugins": ["prettier-plugin-tailwindcss"]
-}
-```
+> ```js
+> // .prettierrc
+> {
+>   "plugins": ["prettier-plugin-tailwindcss"]
+> }
+> ```
 
 - Installation de l'extension Tailwind CSS IntelliSense dans VSCode
 
