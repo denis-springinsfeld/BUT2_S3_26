@@ -8,18 +8,17 @@
 
 - Initialiser un projet Vite avec React JS et installer TailwindCSS
 
-```shell
-# Installation du projet Vite dans le dossier courant - choisir React JS
-npm create vite@latest . -- --template vanilla
-
-# Installation de TailwindCSS
-npm install tailwindcss @tailwindcss/vite
-
-```
+> ```shell
+> # Installation du projet Vite dans le dossier courant - choisir React JS
+> npm create vite@latest . -- --template vanilla
+>
+> # Installation de TailwindCSS
+> npm install tailwindcss @tailwindcss/vite
+> ```
 
 - Modifier votre structure de projet
 
-```shell
+```Plaintext
 TD2-TailwindCSS/
   L public/
     - vite.svg ❌
