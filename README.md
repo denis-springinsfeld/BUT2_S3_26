@@ -89,7 +89,7 @@ TD2-TailwindCSS/
 
 ## Exercices :
 
-## Exercice 1 : Créer une carte Call to Action avec TailwindCSS
+### Exercice 1 : Créer une carte Call to Action avec TailwindCSS
 
 - 1 Créer une carte Call to Action avec TailwindCSS en utilisant les classes de base.
 
@@ -115,9 +115,9 @@ TD2-TailwindCSS/
 </article>
 ```
 
-### Exo 2 : Créer un thème clair et un thème sombre avec TailwindCSS
+### Exercice 2 : Créer un thème clair et un thème sombre avec TailwindCSS
 
-- 2 Configuration des Variables CSS dans le fichier `index.css`
+- 2 Configuration des Variables CSS dans le fichier `style.css`
 
 ```css
 @import "tailwindcss";
