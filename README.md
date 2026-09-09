@@ -91,7 +91,7 @@ TD2-TailwindCSS/
 
 ### Exercice 1 : Créer une carte Call to Action avec TailwindCSS
 
-- 1 Créer une carte Call to Action avec TailwindCSS en utilisant les classes de base.
+- 1 Créer une carte Call to Action avec TailwindCSS en utilisant les classes de base ([couleur indigo](https://tailwindcss.com/docs/customizing-colors#default-color-palette)).
 
 ![image](Ecran/Exo1_S.png)
 ![image](Ecran/Exo1_M.png)
