@@ -1,53 +1,33 @@
-# TP2 R312 2026/2027
+# Sujet d'intégration : Portfolio Développeur avec Style Guide
 
-Intégration de la maquette - projet Vite.JS + TailwindCSS
-Création d'un thème TailwindCSS : Tokens primitive + tokens sémantique.
-Proposer une version dark et light du site.
+## Objectif
 
-- Version mobile :
-  ![SM](Ecrans/landing-mobile.jpg)
+Réaliser l'intégration d'un portfolio de développeur en respectant un style guide basé sur des tokens sémantiques CSS et la gestion de thèmes (clair/sombre).
 
-- Version tablette :
-  ![ST](Ecrans/landing-tablet.jpg)
+- Un site portfolio responsive (HTML/CSS, Tailwind)
+- Un fichier **CSS configuration de TailwindCss** avec des variables sémantiques (tokens)
+- Un mode clair et un mode sombre (via classes `.light` et/ou `.dark`)
 
-- Version desktop :
-  ![SD](Ecrans/landing-desktop.jpg)
+## Style Guide
 
-## Design system :
+### Couleurs
 
-- teal-300: hsl(157, 100%, 85%);
-- teal-400: hsl(157, 74%, 62%);
-- red-400: hsl(0, 96%, 61%);
-- neutral-100: hsl(0, 0%, 100%);
-- neutral-200: hsl(225, 40%, 83%);
-- neutral-300: hsl(225, 21%, 45%);
-- neutral-400: hsl(225, 26%, 23%);
-- neutral-500: hsl(224, 35%, 11%);
+```css
+/* Primitive Tokens */
+--clr-white: oklch(1 0 0);
 
-## FONTS
+--clr-gray-300: oklch(87.2% 0.01 258.338);
+--clr-gray-400: oklch(70.7% 0.022 261.325);
+--clr-gray-800: oklch(27.8% 0.033 256.848);
+--clr-gray-900: oklch(21% 0.034 264.665);
 
-### Font: "Chivo
+--clr-green: oklch(87.1% 0.15 154.449);
+--clr-green-300: oklch(79.2% 0.209 151.711);
+```
 
-### FONT SIZES
+### Typographie
 
-- 200: 0.75rem;
-- 300: 0.875rem;
-- 400: 0.9375rem / 1.125rem
-- 800: 1.625rem / 3rem / 3.25rem
+- Police principale : 'Space Grotesk', sans-serif
+- Textes : gras, tailles variables selon le breakpoint
 
-## LINE HEIGHTS
-
-- 200: 0.8925rem
-- 300: 1.75rem
-- 400: 1.5625rem / 1.75rem
-- 800: 2.375rem / 3.5rem / 3.875rem
-
-## FONT WEIGHTS
-
-- 400: 400;
-- 900: 900;
-
-## Bonus
-
-- Ajouter une animation de type « marquee » en CSS pur pour faire défiler les logos des partenaires.
-- Ajouter un compteur animé en CSS pur affichant le nombre de clients (voir @property).
+---
