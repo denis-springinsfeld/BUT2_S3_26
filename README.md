@@ -46,3 +46,8 @@ Proposer une version dark et light du site.
 
 - 400: 400;
 - 900: 900;
+
+## Bonus
+
+- Ajouter une animation de type « marquee » en CSS pur pour faire défiler les logos des partenaires.
+- Ajouter un compteur animé en CSS pur affichant le nombre de clients (voir @property).
